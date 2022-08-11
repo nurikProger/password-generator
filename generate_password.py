@@ -3,8 +3,10 @@ import string
 
 # acceptable characters for the password
 characters = string.ascii_lowercase + string.ascii_uppercase + "0123456789" + "~`!@#$%^&*()_-+={[}]|\:;\"'<,>.?/"
+
 # the length of the variable 'characters'
 char_num = len(characters)
+
 # a placeholder for the password
 password = str()
 
